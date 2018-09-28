@@ -1,8 +1,10 @@
-package com.tomwatson6.lifeplanner;
+package com.tomwatson6.lifeplanner.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.tomwatson6.lifeplanner.R;
 
 public class MenuActivity extends AppCompatActivity {
 
@@ -13,7 +15,7 @@ public class MenuActivity extends AppCompatActivity {
 
     // Example of a call to a native method
     TextView tv = (TextView) findViewById(R.id.sample_text);
-    tv.setText(stringFromJNI());
+    tv.setText(randomMethod());
     }
 
     /**
